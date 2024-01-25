@@ -28,4 +28,13 @@ public class PlayerCharacterTest {
         assertEquals(expected, actual);
     }
 
+    @Test void move_WhenW_ThenMoveUp_AfterMove_Y_isZeroIsTrue(){
+        int given = 0;
+
+        int actual = PlayerCharacter.move("w");
+
+        int expected = 1;
+
+        assertEquals(expected, actual);
+    }
 }
