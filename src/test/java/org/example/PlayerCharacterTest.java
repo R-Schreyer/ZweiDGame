@@ -8,15 +8,14 @@ public class PlayerCharacterTest {
 
     @Test
     void getX_Return_zeroAsValue(){
-        int given;
+        String given = "inputfield_0";
 
 
-        int actual;
+        int actual = PlayerCharacter.getX();
 
         int expected = 0;
 
         assertEquals(expected, actual);
     }
-
 
 }
